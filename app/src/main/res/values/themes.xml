@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="Theme.Downloader" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Downloader.Dialog" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CustomButtonTheme" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/color_main</item>
+        <item name="colorButtonNormal">@color/color_normal</item>
+        <item name="colorOnPrimary">@color/color_white</item>
+    </style>
+
+</resources>
